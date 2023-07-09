@@ -101,7 +101,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SQT
     &kp Q       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp SEMI
-                                        &kp LGUI  &lt LOWER TAB   &kp SPACE     &sk LSHFT   &lt RAISE BSPC    &tog COLE
+                                        &kp LGUI  &lt LOWER RET   &kp SPACE     &sk LSHFT   &lt RAISE BSPC    &tog COLE
                         >;
                 };
 
@@ -126,7 +126,7 @@ label= "COLE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SQT
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &kp Q       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp SEMI
-                                        &kp LGUI  &lt LOWER TAB   &kp SPACE     &sk LSHFT   &lt RAISE BSPC    &tog COLE
+                                        &kp LGUI  &lt LOWER RET &kp SPACE       &sk LSHFT   &lt RAISE BSPC    &tog COLE
                         >;
                 };
 
