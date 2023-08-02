@@ -101,7 +101,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SQT
     &kp Q       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp SEMI
-                                        &kp LGUI  &lt LOWER RET   &kp SPACE     &sk LSHFT   &lt RAISE BSPC    &tog COLE
+                                        &kp LGUI  &lt LOWER TAB   &kp SPACE     &sk LSHFT   &lt RAISE BSPC    &tog COLE
                         >;
                 };
 
@@ -203,7 +203,7 @@ label= "ADJ"                               ;
 
                 &sys_reset  &bt BT_CLR &out OUT_TOG &trans      &trans          &trans      &kp F7      &kp F8      &kp F9      &kp F12
                 &bootloader &bt BT_NXT  &trans      &trans      &trans          &trans      &kp F4      &kp F5      &kp F6      &kp F11  
-    &trans      &trans      &bt BT_PRV  &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans         
+    &trans      &trans      &bt BT_PRV  &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10     &tog TVP1         
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
                 };
@@ -227,10 +227,10 @@ label= "TVP 1"                             ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp TAB     &kp I       &kp LC(LALT) &kp O      &kp LC(F20)     &none       &none       &none       &none       &none
-                &none       &kp LEFT    &kp LALT    &kp RIGHT   &kp SPACE       &none       &none       &none       &none       &none
-    &kp J       &kp LSHFT   &kp LC(C)   &kp BSPC    &kp LC(V)   &kp LC(F19)     &none       &none       &none       &none       &none       &none        
-                                        &trans      &kp LC(F14) &kp LC(F13)     &none       &none       &none    
+                &kp TAB     &kp Q       &kp 1       &kp E       &kp R           &none       &none       &none       &none       &none
+                &kp LSHFT   &kp A       &kp W       &kp D       &kp F           &none       &none       &none       &none       &none
+    &kp LCTRL   &kp Z       &kp X       &kp S       &kp C       &kp V           &none       &none       &none       &none       &none       &tog TVP1        
+                                        &trans    &lt LOWER TAB &kp SPACE       &none       &none       &none    
                         >;
                 };
 
